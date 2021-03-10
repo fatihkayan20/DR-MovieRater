@@ -1,0 +1,69 @@
+.App {
+  margin:0;
+  padding:20px;
+  min-height: 100vh;
+  color: white;
+  background-color: #282c34;
+
+}
+
+.App-header {
+  text-align: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.layout {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 20px;
+}
+
+.orange{
+  color: orange;
+}
+
+.purple{
+  color: purple;
+}
+
+.last{
+  margin-right: 5px;
+}
+
+.rate-container{
+  border-top:2px solid #fff;
+  margin-top: 20px;
+}
+
+.rate-container .fa-star{
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+
+.title{
+  cursor: pointer;
+  display: grid;
+  grid-template-columns: 1fr auto auto;
+}
+
+.title svg{
+  font-size-adjust: 1.2rem;
+  margin: 0 5px;
+}
+
+.movie-list-stars{
+  margin-left: 10px;
+}
+
+.movie-list-stars svg{
+  margin: 0;
+}
+
+.signout{
+  position: absolute;
+  top:5%;
+  right: 2%;
+  font-size: 2rem ;
+  cursor: pointer;
+}
